@@ -191,5 +191,19 @@ public class Main {
         System.out.println("_byte = (byte)_int = " + _byte);
         _char = String.valueOf(l_boolean).toCharArray()[0];
         System.out.println("_char = String.valueOf(l_boolean).toCharArray()[0] = " + _char);
+        _float1 = (float)(_long1 * _double1);
+        System.out.println("_float1 = (float)(_long1 * _double1) = " + _float1);
+        System.out.println("(_int - dt.getsNum1()) = " + (byte)(_int - dt.getsNum1()));
+        System.out.println("_str + _float1.toString() = " + _str + _float1.toString());
+        _short1 = (short)(_byte + _short1);
+        System.out.println("_byte + _short1" + _short1);
+        _long1 = _long + dt.getlNum1();
+        System.out.println("_long1 = " + _long1);
+        _char1 = (char)(_char1 + 11);
+        System.out.println("_char1 = " + _char1);
+        dt.setfNum(_int1.floatValue());
+        System.out.println("dt.getfNum() = " + dt.getfNum());
+        System.out.println("_char + _short1.toString().toLowerCase().toCharArray()[0] = " + _char + _short1.toString().toLowerCase().toCharArray()[0]);
+        System.out.println("" + (_boolean1 || dt.isbFlag()));
     }
 }
