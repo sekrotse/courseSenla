@@ -187,5 +187,9 @@ public class Main {
 
         _str = String.valueOf(dt.getlNum());
         System.out.println("_str = String.valueOf(dt.getlNum()) = " + _str);
+        _byte = (byte)_int;
+        System.out.println("_byte = (byte)_int = " + _byte);
+        _char = String.valueOf(l_boolean).toCharArray()[0];
+        System.out.println("_char = String.valueOf(l_boolean).toCharArray()[0] = " + _char);
     }
 }
